@@ -7,7 +7,7 @@ import "./App.css";
 import searchIcon from "./search.svg";
 //c032e2d7
 
-const API_URL = "http://www.omdbapi.com/?apikey=9blaa3b";
+const API_URL = "https://www.omdbapi.com/?apikey=9blaa3b";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
